@@ -1,0 +1,12 @@
+{
+  "name": "boca-ai",
+  "version": "1.0.0",
+  "description": "Asistente virtual Boca AI",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "Tu Nombre",
+  "license": "ISC"
+}
