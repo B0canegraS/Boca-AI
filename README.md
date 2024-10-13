@@ -62,7 +62,7 @@ Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue en este repos
 
 ---
 
-Desarrollado con ❤️ por [Tu Nombre]
+Desarrollado con ❤️ por Salvador
 ```
 
 Recuerda reemplazar `[Tu Nombre]` con tu nombre o el nombre de tu equipo.
