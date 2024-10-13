@@ -3,37 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boca AI - Asistente Avanzado</title>
+    <title>Boca AI - Savio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="app">
-        <header>
-            <h1>Boca AI - Asistente Avanzado</h1>
-        </header>
-        <main>
-            <aside class="categories">
-                <h2>Categorías de Conocimiento</h2>
-                <button class="category-btn active">General Knowledge</button>
-                <button class="category-btn">Programming</button>
-                <button class="category-btn">Geography</button>
-                <button class="category-btn">Mathematics</button>
-                <button class="category-btn">Science</button>
-                <button class="category-btn">Arts & Music</button>
-            </aside>
-            <section class="chat-area">
-                <div id="chat-messages">
-                    <div class="message bot">
-                        <p>Hola, soy Savio, el asistente de Boca AI. Tengo acceso a una vasta cantidad de información sobre diversos temas. ¿En qué puedo ayudarte hoy?</p>
-                    </div>
-                </div>
-                <div class="input-area">
-                    <input type="text" id="user-input" placeholder="Haz tu pregunta...">
-                    <button id="send-btn">Enviar</button>
-                </div>
-            </section>
-        </main>
-    </div>
+    <header>
+        <h1>Boca AI - Savio</h1>
+    </header>
+    <main>
+        <div class="chat-container">
+            <div id="chat-box"></div>
+            <input type="text" id="user-input" placeholder="Escribe tu mensaje...">
+            <button id="send-button">Enviar</button>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
